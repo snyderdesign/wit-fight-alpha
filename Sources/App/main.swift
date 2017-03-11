@@ -14,12 +14,12 @@ drop.get("version") { reqest in
 		return "No db connection"
 	}
 //	return let
-	
+
 }
 
 drop.get { req in
     return try drop.view.make("welcome", [
-    	"message": drop.localization[req.lang, "welcome", "title"]
+    	"tagline": drop.localization[req.lang, "welcome", "tagline"]
     ])
 }
 
