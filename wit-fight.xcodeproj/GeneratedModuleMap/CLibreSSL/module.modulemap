@@ -1,0 +1,5 @@
+module CLibreSSL {
+    umbrella header "/Users/bobsnyder/Desktop/tech/iOS_experiments/witfight/vapor_folders/project_alpha/wit-fight/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+    link "CLibreSSL"
+    export *
+}
